@@ -9,7 +9,7 @@ const LeftsideBar = () => {
       <div className="w-52 h-72 mt-12  gap-3  flex flex-col  items-center text-center">
         <img
           className="w-40 h-40 rounded-2xl"
-          src="/src/assets/profile.jpg"
+          src="/src/assets/profile.jpg" alt="profile-img"
         ></img>
         <h4 className="w-auto  font-medium size-4 leading-5 text-[#2B2B2B]">
           Krishna kumar
@@ -43,7 +43,7 @@ const LeftsideBar = () => {
        <h4 className="size-5 leading-5 w-auto font-medium color-[#2B2B2B]">Html</h4>
        <span>90%</span></div>
        
-      <input type="range" min={0} max={100} value={90} className="  color-[#FFB400]"></input>
+      <input type="range" min={0} max={100} value={80} className="  color-[#FFB400]"></input>
        </div>
       </div>
     </div>
