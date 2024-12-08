@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import profileImg from "/src/asset/profile.jpg";
 const LeftsideBar = () => {
   return (
-    <div className="w-72  flex   items-center  justify-center flex-col">
+    <div className="w-72  flex   bg-white items-center  justify-center flex-col">
       <div className="w-52 h-72 mt-12  gap-3  flex flex-col  items-center text-center">
         <img
           className="w-40 h-40 rounded-2xl"
@@ -39,7 +39,7 @@ const LeftsideBar = () => {
       
       {/* skills */}
 
-      <div className="mt-5 w-56 h-60 ">
+      <div className="mt-5 w-56 mb-5 ">
         <h4 className="size-5 leading-5 w-auto font-medium text-[#2B2B2B]">
           Skill
         </h4>
