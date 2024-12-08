@@ -2,14 +2,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { FaTwitter } from "react-icons/fa";
-
+import profileImg from '/src/asset/profile.jpg'
 const LeftsideBar = () => {
   return (
     <div className="w-72  flex   items-center  justify-center flex-col">
       <div className="w-52 h-72 mt-12  gap-3  flex flex-col  items-center text-center">
         <img
           className="w-40 h-40 rounded-2xl"
-          src="https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-man-avatar-isolated-png-image_9935819.png" alt="profile-img"
+          src={profileImg} alt="profile-img"
         ></img>
         <h4 className="w-auto  font-medium size-4 leading-5 text-[#2B2B2B]">
           Krishna kumar
