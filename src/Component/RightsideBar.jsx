@@ -13,7 +13,7 @@ const RightsideBar = () => {
         <MdLightMode />
       </div>
 
-      <div className="w-16 mt-24  text-2xl text-slate-500 flex flex-col items-center gap-14 ">
+      <div className="w-16 mt-24  text-2xl text-slate-500 flex flex-col items-center gap-12 ">
         <Tooltip title="Home" placement="top" arrow>
           <div className="w-10 h-10 rounded-full bg-gray-100 cursor-pointer  hover:bg-yellow-300 hover:text-black flex justify-center items-center">
             <IoMdHome />

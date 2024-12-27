@@ -7,7 +7,7 @@ const LeftsideBar = () => {
     <div className="w-72 flex bg-white items-center justify-center flex-col">
       <div className="w-52 h-72 mt-12 gap-3 flex flex-col items-center text-center">
         <img
-          className="w-40 h-40 rounded-2xl"
+          className="w-40 h-40 rounded-md"
           src={profileImg}
           alt="Profile of Krishna Kumar, Front-end Developer"
         />
